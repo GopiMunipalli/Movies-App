@@ -1,0 +1,109 @@
+* {
+    margin: 0px;
+  }
+  .login-bg-container {
+    background-color: #000000;
+    height: 100vh;
+    font-family: "roboto";
+    color: #ffffff;
+    padding-left: 30px;
+    padding-top: 30px;
+  }
+  .movies-logo {
+    height: 60px;
+    width: 180px;
+    margin-bottom: 120px;
+  }
+  .login-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .login-heading {
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 40px;
+  }
+  .login-label {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 3px;
+    text-transform: uppercase;
+  }
+  .login-input {
+    width: 90%;
+    height: 30px;
+    background-color: #333333;
+    color: #e2e2e2;
+    border: solid 7px transparent;
+    margin-bottom: 20px;
+    outline: none;
+  }
+  .login-button {
+    background-color: #e50914;
+    border: solid 7px transparent;
+    width: 93%;
+    height: 30px;
+    color: #ffffff;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  .error-msg {
+    color: var(--light-red-600, #dc2626);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  @media screen and (min-width: 768px) {
+    .login-bg-container {
+      background-image: url("https://res.cloudinary.com/dpiaz73h0/image/upload/v1696312328/netfilx_1loginpage_qqqvvq.png");
+      background-size: cover;
+      background-position: center;
+      height: 120vh;
+    }
+    .movies-logo {
+      align-items: flex-start;
+    }
+    .login-main-card-container {
+      display: flex;
+      justify-content: center;
+    }
+  
+    .login-card-container {
+      background-color: #0c0b10;
+      width: 25%;
+      height: 30%;
+      padding: 20px;
+      border-radius: 8px;
+      opacity: 0.8;
+      align-self: center;
+    }
+    .login-heading {
+      align-self: center;
+    }
+    .login-label {
+      font-family: HK Grotesk;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 500;
+    }
+    .login-input {
+      width: 90%;
+      height: 30px;
+    }
+    .login-button {
+      background-color: #e50914;
+      border: solid 7px transparent;
+      width: 93%;
+      height: 30px;
+      color: #ffffff;
+      margin-top: 20px;
+    }
+  }

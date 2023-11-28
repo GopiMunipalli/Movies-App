@@ -1,0 +1,112 @@
+.nav-bar {
+    background-color: #13131360;
+    opacity: 0.7;
+    padding: 20px;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .website-logo {
+    width: 120px;
+    height: 30px;
+    flex-shrink: 0;
+    margin-left: 20px;
+    padding-right: 20px;
+  }
+  .header-items-card {
+    display: none;
+  }
+  .menu-item {
+    margin-left: 15px;
+    color: #ffffff;
+    font-style: normal;
+    font-family: Roboto;
+    font-weight: 600;
+  }
+  .header-items-bottom {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  .search-icon {
+    height: 20px;
+    width: 20px;
+  }
+  .open-menu {
+    height: 22px;
+    width: 22px;
+  }
+  .button {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #babdc2;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 30px;
+  }
+  .profile {
+    display: none;
+  }
+  .footer-menu-card {
+    color: #ffffff;
+    font-family: Roboto;
+    margin-right: 0px;
+  }
+  .footer-items {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+  }
+  .close-menu {
+    height: 17px;
+    width: 17px;
+  }
+  .input-search {
+    background-color: #131313;
+    border-radius: 4px;
+    color: #ffffff;
+    border: solid 1px gray;
+    outline: none;
+    padding: 9px;
+    width: 50%;
+    margin-left: 20px;
+  }
+  @media screen and (min-width: 768px) {
+    .open-menu {
+      display: none;
+    }
+    .profile {
+      display: flex;
+      border-radius: 60px;
+    }
+    .header-items-bottom {
+      justify-content: center;
+      display: flex;
+      align-self: center;
+    }
+    .header-items-card {
+      display: flex;
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+      justify-content: center;
+      padding: 20px;
+    }
+    .footer-menu-card {
+      display: none;
+    }
+  }

@@ -1,0 +1,25 @@
+.footer-bg-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+  }
+  .footer-icon {
+    margin-left: 5px;
+    font-size: 17px;
+    color: #f1f1f1;
+  }
+  @media screen and (min-width: 768px) {
+    .footer-container {
+      width: 200px;
+    }
+    .footer-icon {
+      font-size: 25px;
+      margin-left: 10px;
+    }
+  }
